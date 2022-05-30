@@ -1,0 +1,104 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/web_fonts/SofiaSans[wdth,wght].woff2);
+}
+
+.card-img-top {
+    width: 110px;
+    height: 110px;
+}
+
+.card-title {
+    color: rgb(73, 173, 227);
+    font-family: myFirstFont;
+}
+
+.diving {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-4 {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    font-size: 14px;
+    color: grey;
+}
+
+.topNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.topNav a {
+    color: grey;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+.topNav img {
+    width: 14px;
+    height: 14px;
+    margin-left: -10px;
+}
+
+h3,
+h4 {
+    color: #2C91BF;
+}
+
+.about {
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80;
+}
+
+@media (max-width: 800px) {
+    .about {
+        flex-direction: column;
+    }
+}
+
+button {
+    padding: 5px 10px 5px 10px;
+    border: 2px #191D32 solid;
+    background-color: transparent;
+    ;
+    color: #191D32;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #191D32;
+    color: white;
+}
+
+.footer div {
+    padding-right: 6%;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer img {
+    padding-bottom: 20px;
+}
